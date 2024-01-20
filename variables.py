@@ -38,3 +38,5 @@ def Main():
     variables()
     expressions_practice()
     prompt_and_print()
+
+Main()
