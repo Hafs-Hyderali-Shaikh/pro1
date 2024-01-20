@@ -14,5 +14,6 @@ def test_drive():
     
 def Main():
     test_drive()
+    input("please enter to continue...")
     
 Main()
