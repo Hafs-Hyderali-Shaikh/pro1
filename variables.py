@@ -23,3 +23,16 @@ def expressions_practice():
     print(Mod)
     print(multiplication)
     print(mix_operators)
+    
+
+expressions_practice()
+
+def prompt_and_print():
+    inp=int(input("Enter a number: "))
+    inp1=int(input("Enter another: "))
+    print(inp,"+",inp1,"=",inp + inp1)
+    print(inp,"-",inp1,"=",inp - inp1)
+    print(inp,"*",inp1,"=",inp * inp1)
+    print(inp,"/",inp1,"=",inp / inp1)
+    
+prompt_and_print()
