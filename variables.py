@@ -8,7 +8,6 @@ def variables():
     print("firstPet =",firstPet)
     print("first_5_digits_of_Pi =",first_5_digits_of_Pi)
     
-variables()
 
 def expressions_practice():
     Literal = 10
@@ -25,7 +24,6 @@ def expressions_practice():
     print(mix_operators)
     
 
-expressions_practice()
 
 def prompt_and_print():
     inp=int(input("Enter a number: "))
@@ -34,5 +32,9 @@ def prompt_and_print():
     print(inp,"-",inp1,"=",inp - inp1)
     print(inp,"*",inp1,"=",inp * inp1)
     print(inp,"/",inp1,"=",inp / inp1)
-    
-prompt_and_print()
+
+
+def Main():
+    variables()
+    expressions_practice()
+    prompt_and_print()
